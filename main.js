@@ -1,7 +1,7 @@
 let html = document.querySelector("#html");
 let style = document.querySelector("#style");
 let div = document.querySelector("#box");
-let top = document.querySelector("#top");
+let toper = document.querySelector("#toper");
 let under = document.querySelector("#under");
 let i = 0;
 let string = `/*你好,
@@ -25,8 +25,9 @@ let string = `/*你好,
 #box{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
 }
-/*然后形成两条黑白阴阳鱼*/
-#top {
+/*然后形成两条阴阳鱼
+*/
+#toper{
     height: 100px;
     width: 100px;
     border-radius: 50%;
