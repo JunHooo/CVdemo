@@ -145,7 +145,7 @@ function fn() {
       window.scrollTo(0, 9999);
       html.scrollTo(0, 9999);
     } else {}
-  }, 0);
+  }, 50);
 }
 
 fn(); //
